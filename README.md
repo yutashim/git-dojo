@@ -1,8 +1,8 @@
-( `ver.20190902` )
+( `ver.20200120` )
 
 # Git道場
 - Git を体で覚えて、使えるようになろう！
-- という会です
+- という会です 
 - スライドは https://esa-pages.io/p/sharing/4916/posts/122/3580bfa74e806586e642-slides.html
 
 ## 今日の目的
@@ -50,7 +50,7 @@
 - 数年前は Subversion など中央管理が主流だった
   - 中央管理リポジトリにアクセスできないと使えない
   - ...など、不便なところがあった
-- → Git の利点:
+- → Git の利点: 
     - ローカルでコミットできる、ブランチが切りやすい
     - ...など、開発しやすくて便利になった:)
 
@@ -148,7 +148,7 @@ $ git rebase --continue
     - あれ？って思ったら git status を打って状況確認
 
 
-# 体
+# 体    
 
 ## 確認
 - 自分のチーム決まってる？
@@ -156,7 +156,6 @@ $ git rebase --continue
   - https://github.com/dic-git-dojo/A-team/settings/collaboration
   - https://github.com/dic-git-dojo/B-team/settings/collaboration
   - https://github.com/dic-git-dojo/C-team/settings/collaboration
-  - https://github.com/dic-git-dojo/D-team/settings/collaboration
 
 
 ## やること
@@ -167,10 +166,10 @@ $ git rebase --continue
 - コンフリクトするように commit してください〜
 
 ## では、スタート
-- 気になること、困ったら手を上げてください〜 :hand:
-- 基本の流れ clone → commit を5回 → push
+- 気になること、困ったら手を上げてください〜 :hand: 
+- 基本の流れ clone → commit を5回 → push 
   - コンフリクトで push できなかったら
-      - `git pull` か `git pull --rebase` してコンフリクトを解消して git add
+      - `git pull` か `git pull --rebase` してコンフリクトを解消して git add 
 - 途中 GitHub で Network graph を見てみると面白い
   - `https://github.com/dic-git-dojo/【X-team】/network`
   - 各メンバーの commit がどんな風になったか見れる
