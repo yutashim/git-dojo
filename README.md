@@ -97,7 +97,7 @@ $ cd 【X-team】
 $ git add Numbers.txt
 $ git commit -m 'コミットメッセージ...'
 
-# 準備pushしていきます。（一番最初にpushした方はコンフリクトは起こりません。）
+# 順次pushしていきます。（一番最初にpushした方はコンフリクトは起こりません。）
 $ git push origin master
 
 # コンフリクトしたら
@@ -108,7 +108,7 @@ $ git pull #( もしくは `git pull --rebase` )
 $ git add Numbers.txt
 $ git rebase --continue
 # (コンフリクト解消まで、 git add と git rebase --continue 繰り返す）
-# (git rebase --continueを繰り返す回数は、git logで確認ができます。)
+# (git rebase --continueを繰り返す回数は、ターミナルで確認ができます。)
 ```
 
 ## 意識したいこと
