@@ -1,4 +1,4 @@
-( `ver.20200120` )
+( `ver.20200610` )
 
 # Git道場
 - Git を体で覚えて、使えるようになろう！
@@ -80,6 +80,7 @@ git add
 git status
 git push
 git pull
+git pull --rebase
 git rebase
 ```
 
@@ -90,20 +91,24 @@ $ git clone git@github.com:dic-git-dojo/【X-team】.git
 $ cd 【X-team】
 
 # エディタで編集
+# 「編集〜コミット」を5回繰り返す
+# コンフリクトするようにコミットすること
+# コンフリクトは、チーム内のメンバーが同じ行を編集することで起こります。
 $ git add Numbers.txt
 $ git commit -m 'コミットメッセージ...'
 
-# 編集〜コミットを5回繰り返す
-# コンフリクトするようにコミットすること
-
+# 準備pushしていきます。（一番最初にpushした方はコンフリクトは起こりません。）
 $ git push origin master
 
 # コンフリクトしたら
 $ git pull #( もしくは `git pull --rebase` )
+# git pullはmergeをします。git pull --rebaseはリベースをします。
+
 # コンフリクトを解消
 $ git add Numbers.txt
 $ git rebase --continue
-# （コンフリクト解消まで、 git add と git rebase --continue 繰り返す）
+# (コンフリクト解消まで、 git add と git rebase --continue 繰り返す）
+# (git rebase --continueを繰り返す回数は、git logで確認ができます。)
 ```
 
 ## 意識したいこと
