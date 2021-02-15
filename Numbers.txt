@@ -2,13 +2,13 @@
 2 どんな編集をしたらいいかわからないが hoge
 4 hoge
 3 コンフリクトするのはとっても怖い hoge
-5 edit @yutashim
+5 edit @hirano
 6 hoge
 7 hoge
 9 hoge
 8 hoge
-11 hoge
-conflict conflict
+コンフリクトコンフリクト
+zzzzzzzzzzzzzzzzzzzzzz
 13 hoge
 14 hoge
-hogehoge fugafuga
+aああああああああああ
