@@ -1,7 +1,7 @@
 1 今日はgit道場に参加してる  hoge
 2 どんな編集をしたらいいかわからないが hoge
 4 hoge
-3 コンフリクトするのは怖い hoge
+3 コンフリクトするのはとっても怖い hoge
 5 edit @yutashim
 6 hoge
 7 hoge
