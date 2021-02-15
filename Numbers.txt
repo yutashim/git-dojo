@@ -1,15 +1,14 @@
-1 今日はgit道場に参加してる  hoge
+1 今日はgit道場に参加してるのか？  hoge
 2 どんな編集をしたらいいかわからないが hoge
-4 hogefuga
-3 コンフリクトするのは怖い hoge
-5 hogehoge
-6 hogefuga
+4 hoge
+3 コンフリクトするのはとっても怖い hoge
+5 edit @yutashim
+6 hoge
 7 hoge
 9 hoge
 8 hoge
-10 hogehogehoge
 11 hoge
-12 hoge
+conflict conflict
 13 hoge
 14 hoge
-15 hogehogehogehoge
+hogehoge fugafuga
